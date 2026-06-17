@@ -4,22 +4,22 @@ import { useInView } from '../hooks/useInView'
 
 const PROJECTS = [
   {
-    title: 'ARUX Ticket Management',
-    year: '2025',
+    title: 'Internal Task Management Platform',
+    year: '2025–2026',
     description:
-      'Full-stack ticket system built solo. REST API with RBAC auth, multi-tenant data isolation, and a responsive React dashboard.',
+      'Full-stack task management platform built solo, replacing the company\'s Excel-based workflow. REST APIs in TypeScript, RBAC, and a responsive React dashboard.',
     tags: ['Node.js', 'Express', 'TypeScript', 'Prisma', 'PostgreSQL', 'React', 'Docker'],
     detail:
-      'JWT-based role access control with three permission levels — admin, agent, and client. Containerized with Docker Compose for one-command deployment. Dashboard surfaces real-time status, filter & sort, and a full audit log per ticket.',
+      'Role-based access control with admin and viewer roles, normalized relational catalogs with UUID identifiers. React dashboard with category filtering, deadline tracking, task descriptions, and per-task notes for operational context. Containerized with Docker.',
   },
   {
-    title: 'PROYECTO-K Ixpolin',
-    year: '2024',
+    title: 'Personal Portfolio',
+    year: '2026',
     description:
-      'Interactive learning platform with quizzes covering basic math, Spanish, and more — powered by the Gemini API for dynamic content and report generation.',
-    tags: ['React', 'Gemini API', 'JavaScript'],
+      'This portfolio — designed and built from scratch with React, Vite, Tailwind CSS, and Framer Motion. Dark-themed, single-page, with smooth scroll and animated sections.',
+    tags: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     detail:
-      'Quiz engine with multiple subject areas (math, Spanish, and more). Integrates Google Gemini to generate personalized learning reports automatically. Fully responsive layout built for students of all ages.',
+      'Fully custom design with no UI library. Scroll-triggered animations via Framer Motion and a custom useInView hook. Responsive across all screen sizes with a focus on clean typography and minimal visual noise.',
   },
 ]
 

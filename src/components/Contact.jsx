@@ -5,9 +5,9 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 const LINKS = [
   {
     label: 'Email',
-    href: 'mailto:fabiantvillarreal@gmail.com',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=fabiantvillarreal@gmail.com',
     Icon: FaEnvelope,
-    external: false,
+    external: true,
   },
   {
     label: 'LinkedIn',

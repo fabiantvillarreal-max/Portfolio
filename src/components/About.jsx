@@ -28,10 +28,11 @@ export default function About() {
               real-world software.
             </h2>
             <p className="text-muted leading-[1.8] max-w-xl text-base">
-              I'm a Computer Science student at Tecnológico de Monterrey with a focus on
-              full-stack development. I design and ship complete systems — clean REST APIs,
-              well-structured databases, and responsive frontends — with an emphasis on
-              maintainable architecture and developer ergonomics.
+              I'm a Computer Science student at Tecnológico de Monterrey, recently back from
+              an exchange semester at Sungkyunkwan University in South Korea. I build complete
+              systems end-to-end — from database schema to responsive frontend — with a focus
+              on backend architecture, relational database design, and reliable, maintainable
+              software.
             </p>
           </div>
 

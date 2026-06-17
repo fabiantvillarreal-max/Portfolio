@@ -4,7 +4,4 @@ dist
 .env.local
 .DS_Store
 
-# Claude
-.claude/
-CLAUDE_LOG.md
-docs/superpowers/
+.private/

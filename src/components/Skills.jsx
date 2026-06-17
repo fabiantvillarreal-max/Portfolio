@@ -15,7 +15,7 @@ import {
   SiGit,
   SiMysql,
 } from 'react-icons/si'
-import { FaJava } from 'react-icons/fa'
+import { FaJava, FaDatabase } from 'react-icons/fa'
 
 const SKILL_GROUPS = [
   {
@@ -26,6 +26,7 @@ const SKILL_GROUPS = [
       { name: 'JavaScript', Icon: SiJavascript },
       { name: 'TypeScript', Icon: SiTypescript },
       { name: 'Java', Icon: FaJava },
+      { name: 'SQL', Icon: FaDatabase },
     ],
   },
   {
